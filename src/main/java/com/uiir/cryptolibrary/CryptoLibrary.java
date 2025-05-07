@@ -3,6 +3,10 @@ package com.uiir.cryptolibrary;
 
 public class CryptoLibrary {
 
+    public static void main(String[] args) {
+        System.out.println( "CryptoLibrary" );
+    }
+
     // Метод шифрования Цезаря
     public String caesarCipher(String input, int shift) {
         if (shift == 0) {
